@@ -13,7 +13,6 @@ using ContactPro.Models.ViewModels;
 using ContactPro.Enums;
 using ContactPro.Services;
 using ContactPro.Services.Interfaces;
-using ContactPro.Models.ViewModels;
 using Microsoft.AspNetCore.Identity.UI.Services;
 
 namespace ContactPro.Controllers

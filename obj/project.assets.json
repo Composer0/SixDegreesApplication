@@ -82,6 +82,40 @@
           }
         }
       },
+      "Docker.DotNet/3.125.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Buffers": "4.5.1",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/Docker.DotNet.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Docker.DotNet.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Docker.DotNet.X509/3.125.12": {
+        "type": "package",
+        "dependencies": {
+          "Docker.DotNet": "3.125.12"
+        },
+        "compile": {
+          "lib/netstandard2.1/Docker.DotNet.X509.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Docker.DotNet.X509.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -2373,20 +2407,13 @@
           "lib/netstandard1.6/System.AppContext.dll": {}
         }
       },
-      "System.Buffers/4.3.0": {
+      "System.Buffers/4.5.1": {
         "type": "package",
-        "dependencies": {
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Diagnostics.Tracing": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Threading": "4.3.0"
-        },
         "compile": {
-          "lib/netstandard1.1/_._": {}
+          "ref/netcoreapp2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.1/System.Buffers.dll": {}
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -3997,6 +4024,40 @@
         "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll",
         "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.xml",
         "pkgicon.png"
+      ]
+    },
+    "Docker.DotNet/3.125.12": {
+      "sha512": "lkDh6PUV8SIM1swPCkd3f+8zGB7Z9Am3C2XBLqAjyIIp5jQBCsDFrtbtA1QiVdFMWdYcJscrX/gzzG50kRj0jQ==",
+      "type": "package",
+      "path": "docker.dotnet/3.125.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "docker.dotnet.3.125.12.nupkg.sha512",
+        "docker.dotnet.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Docker.DotNet.dll",
+        "lib/netstandard2.0/Docker.DotNet.pdb",
+        "lib/netstandard2.1/Docker.DotNet.dll",
+        "lib/netstandard2.1/Docker.DotNet.pdb"
+      ]
+    },
+    "Docker.DotNet.X509/3.125.12": {
+      "sha512": "CwxE5BUJNdKvhLD2NZuxzGd2y6o+grkIJQr3JavEUILTlJd0tZMVDfge63wWTuzsbq4sTEhE4bZBLEgG/0vzgw==",
+      "type": "package",
+      "path": "docker.dotnet.x509/3.125.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "docker.dotnet.x509.3.125.12.nupkg.sha512",
+        "docker.dotnet.x509.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Docker.DotNet.X509.dll",
+        "lib/netstandard2.0/Docker.DotNet.X509.pdb",
+        "lib/netstandard2.1/Docker.DotNet.X509.dll",
+        "lib/netstandard2.1/Docker.DotNet.X509.pdb"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -7112,19 +7173,35 @@
         "system.appcontext.nuspec"
       ]
     },
-    "System.Buffers/4.3.0": {
-      "sha512": "ratu44uTIHgeBeI0dE8DWvmXVBSo4u7ozRZZHOMmK/JPpYyo0dAfgSiHlpiObMQ5lEtEyIXA40sKRYg5J6A8uQ==",
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
-      "path": "system.buffers/4.3.0",
+      "path": "system.buffers/4.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/netstandard1.1/.xml",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
         "lib/netstandard1.1/System.Buffers.dll",
-        "system.buffers.4.3.0.nupkg.sha512",
-        "system.buffers.nuspec"
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Collections/4.3.0": {
@@ -10931,6 +11008,7 @@
     "net6.0": [
       "Azure.Extensions.AspNetCore.Configuration.Secrets >= 1.0.0",
       "Azure.Identity >= 1.6.0",
+      "Docker.DotNet.X509 >= 3.125.12",
       "MailKit >= 3.4.3",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.12",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.12",
@@ -10994,6 +11072,10 @@
           "Azure.Identity": {
             "target": "Package",
             "version": "[1.6.0, )"
+          },
+          "Docker.DotNet.X509": {
+            "target": "Package",
+            "version": "[3.125.12, )"
           },
           "MailKit": {
             "target": "Package",

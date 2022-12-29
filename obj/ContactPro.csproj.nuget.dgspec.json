@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[1.6.0, )"
             },
+            "Docker.DotNet.X509": {
+              "target": "Package",
+              "version": "[3.125.12, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[3.4.3, )"

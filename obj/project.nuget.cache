@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jCfgkG8fsQZY5IuHENJ9N7mdAvrpjvSc4d+RNXuuh+a6FpIz+YSFXhq7Rxo0fBL/Wz110YoB+mZVEuVl2LIIQQ==",
+  "dgSpecHash": "Tjr8qeo8TfeZcSkmOI3Iw6K+yDoqqBNTISf+1SBgJFqIfIra8shTtI0U4tPUdaRcJ4GeI1VfTcynx+l6MJzSRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\ContactPro.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\compo\\.nuget\\packages\\azure.extensions.aspnetcore.configuration.secrets\\1.0.0\\azure.extensions.aspnetcore.configuration.secrets.1.0.0.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\azure.security.keyvault.secrets\\4.0.1\\azure.security.keyvault.secrets.4.0.1.nupkg.sha512",
+    "C:\\Users\\compo\\.nuget\\packages\\docker.dotnet\\3.125.12\\docker.dotnet.3.125.12.nupkg.sha512",
+    "C:\\Users\\compo\\.nuget\\packages\\docker.dotnet.x509\\3.125.12\\docker.dotnet.x509.3.125.12.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\mailkit\\3.4.3\\mailkit.3.4.3.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
@@ -116,7 +118,7 @@
     "C:\\Users\\compo\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
-    "C:\\Users\\compo\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
+    "C:\\Users\\compo\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

@@ -1,0 +1,236 @@
+/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}*/
+
+:root {
+    --primaryColor: #0869b8;
+    --primaryColorDark: #002a4e;
+    --primaryColorLight: #edf5fc;
+    --secondaryColor: #edc68a;
+    --secondaryColorLight: #FFF8EC;
+    --dark-color: #131313;
+    --light-gray: #d9d9d9;
+    --light-color: #eeeeee;
+    --title-font: 'Fira Sans', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+    --dark-body: #050214;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /* fallback for old browsers */
+    background-color: var(--dark-body);
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-color);
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/*--Button Overrides --*/
+/*-- Button styles override Bootstrap Styles --*/
+.btn-outline-primary {
+    color: var(--dark-color);
+    border-color: var(--primaryColor) !important;
+}
+
+    .btn-outline-primary:hover,
+    .btn-outline-primary:active,
+    .btn-outline-primary:focus {
+        border-color: var(--secondaryColor) !important;
+        background-color: var(--primaryColor);
+    }
+
+.btn-primary {
+    color: white !important;
+    background-color: var(--primaryColor) !important;
+    border-color: var(--secondary-color);
+}
+
+    .btn-primary:hover {
+        filter: brightness(1.2) !important;
+        border-color: var(--primaryColorDark);
+    }
+
+    .btn-primary:active,
+    .btn-primary:visited,
+    .btn-primary:focus {
+        filter: brightness(1.2) !important;
+    }
+
+.btnlinks {
+    width: 7rem;
+}
+
+nav {
+    background-color: var(--primaryColorLight)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--title-font);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+main {
+    background-color: var(--primaryColorLight);
+}
+
+.content {
+    flex: 1 0 auto;
+    padding-top: 7.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.logoColor {
+
+}
+
+.heroCard {
+    min-height: 100%;
+}
+
+.texthighlight {
+    color: var(--primaryColor);
+}
+
+.heroTitle {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: var(--title-font);
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
+
+.pageHeader {
+    background-color: var(--secondaryColor);
+    padding-top: 7.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.pageTitle {
+    font-family: var(--title-font);
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-transform: capitalize;
+}
+
+.navShadow {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sideNav {
+    border-radius: 25px;
+    border-color: var(--light-color);
+    border-style: solid;
+    border-width: 3px;
+    background-color: var(--secondaryColor);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: fit-content;
+}
+
+.editIcons {
+    font-size: 1.5rem;
+    opacity: .9;
+    color: var(--primaryColorDark);
+}
+
+    .editIcons:hover {
+        color: var(--primaryColor);
+        font-weight: bold;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+
+.icon {
+    font-size: 3.5rem;
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: var(--secondaryColor);
+}
+
+.copyright {
+    color: var(--primaryColorDark);
+    font-size: .9rem;
+}
+
+.socialicons {
+    color: var(--primaryColorDark);
+    opacity: .9;
+    font-size: 2rem;
+}
+
+    .socialicons:hover {
+        color: var(--primaryColor);
+        opacity: 1;
+        cursor: pointer;
+    }
+
+.square-img-container {
+    position: relative;
+    background-color: var(--primaryColorLight);
+    border-color: var(--light-gray);
+    border-style: solid;
+}
+
+    .square-img-container::after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+
+.square-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.railway {
+    margin-bottom: 1rem;
+    vertical-align: top!important;
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .heroTitle {
+        font-size: 3.5rem;
+    }
+}

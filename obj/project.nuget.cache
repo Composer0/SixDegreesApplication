@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3SeRjdoG2ifVS5WzN7QSjSoZd045oTzPFW85F+ePkKXAU6UAhbpRaYO8k2veRDbZOhhOXWA9PTMnYanvHzrhuA==",
+  "dgSpecHash": "2MLabBcOUq3vqbrlb0RVeyYjrHpohfwD9jQt37CBozqaK5jHTnyHMVrW0McEeStqat6+NneVOhYK/FAsoJ5Y7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\compo\\Desktop\\BootCamp\\C#\\ContactPro\\ContactPro\\ContactPro.csproj",
+  "projectFilePath": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\ContactPro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\compo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\mailkit\\3.4.3\\mailkit.3.4.3.nupkg.sha512",

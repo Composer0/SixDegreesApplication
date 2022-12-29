@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\compo\\Desktop\\BootCamp\\C#\\ContactPro\\ContactPro\\ContactPro.csproj": {}
+    "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\ContactPro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\compo\\Desktop\\BootCamp\\C#\\ContactPro\\ContactPro\\ContactPro.csproj": {
+    "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\ContactPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\compo\\Desktop\\BootCamp\\C#\\ContactPro\\ContactPro\\ContactPro.csproj",
+        "projectUniqueName": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\ContactPro.csproj",
         "projectName": "ContactPro",
-        "projectPath": "C:\\Users\\compo\\Desktop\\BootCamp\\C#\\ContactPro\\ContactPro\\ContactPro.csproj",
+        "projectPath": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\ContactPro.csproj",
         "packagesPath": "C:\\Users\\compo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\compo\\Desktop\\BootCamp\\C#\\ContactPro\\ContactPro\\obj\\",
+        "outputPath": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

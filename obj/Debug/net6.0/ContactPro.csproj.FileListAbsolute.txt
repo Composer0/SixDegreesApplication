@@ -559,3 +559,9 @@ C:\Users\compo\Desktop\ContactPro\ContactPro\obj\Debug\net6.0\ContactPro.pdb
 C:\Users\compo\Desktop\ContactPro\ContactPro\obj\Debug\net6.0\ContactPro.genruntimeconfig.cache
 C:\Users\compo\Desktop\ContactPro\ContactPro\obj\Debug\net6.0\ref\ContactPro.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\railway.json
+C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\System.Memory.Data.dll

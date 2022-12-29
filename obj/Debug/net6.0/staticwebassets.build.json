@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mVDgFcTE7O43MiIbFn3U7boV/Gzndl1D9yPsPrTnFGk=",
+  "Hash": "TQckz+Q++SzrHjnpsZA9qVdWT9qN7BJYMBIws3kRfJw=",
   "Source": "ContactPro",
   "BasePath": "_content/ContactPro",
   "Mode": "Default",
@@ -1462,6 +1462,23 @@
       "OriginalItemSpec": "wwwroot\\img\\SixDegreesName3.png"
     },
     {
+      "Identity": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\wwwroot\\js\\qr.js",
+      "SourceId": "ContactPro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\wwwroot\\",
+      "BasePath": "_content/ContactPro",
+      "RelativePath": "js/qr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\qr.js"
+    },
+    {
       "Identity": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\wwwroot\\js\\site.js",
       "SourceId": "ContactPro",
       "SourceType": "Discovered",
@@ -2446,6 +2463,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\wwwroot\\lib\\qrcode.js",
+      "SourceId": "ContactPro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\wwwroot\\",
+      "BasePath": "_content/ContactPro",
+      "RelativePath": "lib/qrcode.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\qrcode.js"
+    },
+    {
+      "Identity": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\wwwroot\\lib\\qrcode.min.js",
+      "SourceId": "ContactPro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\wwwroot\\",
+      "BasePath": "_content/ContactPro",
+      "RelativePath": "lib/qrcode.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\qrcode.min.js"
     }
   ]
 }

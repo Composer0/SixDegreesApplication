@@ -16,10 +16,10 @@ var builder = WebApplication.CreateBuilder(args);
 // The above is what connects to our database. GetSection allows for the 'Secrets' file to be found and selected.
 var connectionString = ConnectionHelper.GetConnectionString(builder.Configuration);
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
     // options.UseSqlServer(connectionString)); -- Original
-    options.UseNpgsql(connectionString));
     // this version uses PostgreSql
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = true) //we've extended it. It is no longer IdentityUser but instead AppUser.

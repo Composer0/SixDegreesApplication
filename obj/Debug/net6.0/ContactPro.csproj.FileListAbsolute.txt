@@ -1,6 +1,5 @@
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\appsettings.json
-C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\railway.json
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\ContactPro.staticwebassets.runtime.json
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\ContactPro.exe
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\ContactPro.deps.json

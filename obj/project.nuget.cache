@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U0f7usu6CFyYFNzQSCd39y+Zqs+kmUuNhVyWdOv1yJ9RJIW7nd9ylidjuLybbbk8NsVowOgrJPVkSWs2pfA8Dg==",
+  "dgSpecHash": "OO0Gs+Hy5h7MXtqrn6yFnvLQfcebXYn4jacr2yLruYs8D0Wz+DMuzT1WoDjFLxYKofIuoivoLtoID/FLksu9HA==",
   "success": true,
   "projectFilePath": "C:\\Users\\compo\\Desktop\\ContactPro\\ContactPro\\ContactPro.csproj",
   "expectedPackageFiles": [
@@ -69,6 +69,7 @@
     "C:\\Users\\compo\\.nuget\\packages\\microsoft.net.stringtools\\17.3.2\\microsoft.net.stringtools.17.3.2.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\compo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\microsoft.visualstudio.debugger.contracts\\17.2.0\\microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.11\\microsoft.visualstudio.web.codegeneration.6.0.11.nupkg.sha512",
     "C:\\Users\\compo\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\6.0.11\\microsoft.visualstudio.web.codegeneration.core.6.0.11.nupkg.sha512",

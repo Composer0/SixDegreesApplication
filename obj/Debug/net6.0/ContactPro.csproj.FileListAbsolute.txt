@@ -6,10 +6,6 @@ C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\ContactPro.deps.js
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\ContactPro.runtimeconfig.json
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\ContactPro.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\ContactPro.pdb
-C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Azure.Core.dll
-C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
-C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Azure.Identity.dll
-C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Humanizer.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\MailKit.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\MessagePack.dll
@@ -51,7 +47,6 @@ C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Microsoft.Extensio
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
@@ -89,7 +84,6 @@ C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\System.Composition
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\System.Memory.Data.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\System.Runtime.Caching.dll
 C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll

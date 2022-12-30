@@ -1,9 +1,9 @@
 using ContactPro.Data;
 using ContactPro.Models;
-using ContactPro.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ContactPro.Services;
+using ContactPro.Services.Interfaces;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using ContactPro.Helpers;
 
@@ -16,8 +16,8 @@ var builder = WebApplication.CreateBuilder(args);
 // The above is what connects to our database. GetSection allows for the 'Secrets' file to be found and selected.
 var connectionString = ConnectionHelper.GetConnectionString(builder.Configuration);
 
-    // options.UseSqlServer(connectionString)); -- Original
-    // this version uses PostgreSql
+// options.UseSqlServer(connectionString)); -- Original
+// this version uses PostgreSql
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();

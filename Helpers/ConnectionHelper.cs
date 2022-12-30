@@ -13,8 +13,8 @@ namespace ContactPro.Helpers
             return string.IsNullOrEmpty(databaseUrl) ? connectionString : BuildConnectionString(databaseUrl); //ternary operator!
         }
         //build a connection string from the environment.
-        private static string BuildConnectionString(string databaseUrl)
         //Universal Resource Identity = Identifies a resource. Can also be a url. URL is used to find a resource.
+        private static string BuildConnectionString(string databaseUrl)
         {
             var databaseUri = new Uri(databaseUrl);
             var userInfo = databaseUri.UserInfo.Split(';');

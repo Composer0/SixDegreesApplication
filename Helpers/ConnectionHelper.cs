@@ -7,8 +7,8 @@ namespace ContactPro.Helpers
     {
         public static string GetConnectionString(IConfiguration configuration)
         {
-            //var connectionString = configuration.GetSection("pgSettings")["pgConnection"];
-            var connectionString = configuration.GetConnectionString("DefaultConnection");
+            var connectionString = configuration.GetSection("pgSettings")["pgConnection"];
+            //var connectionString = configuration.GetConnectionString("DefaultConnection");
             var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL"); //Environment is different on each platform. both the configuration and the environment can not be true. One or the other will run.
            
             return string.IsNullOrEmpty(databaseUrl) ? connectionString : BuildConnectionString(databaseUrl); //ternary operator!

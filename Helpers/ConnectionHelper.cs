@@ -10,7 +10,7 @@ namespace ContactPro.Helpers
             var connectionString = configuration.GetSection("pgSettings")["pgConnection"];
             var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL"); //Environment is different on each platform. both the configuration and the environment can not be true. One or the other will run.
            
-            return String.IsNullOrEmpty(databaseUrl) ? connectionString : BuildConnectionString(databaseUrl); //ternary operator!
+            return string.IsNullOrEmpty(databaseUrl) ? connectionString : BuildConnectionString(databaseUrl); //ternary operator!
         }
         //build a connection string from the environment.
         private static string BuildConnectionString(string databaseUrl)

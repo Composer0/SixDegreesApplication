@@ -285,3 +285,5 @@ C:\Users\compo\Desktop\ContactPro\ContactPro\obj\Debug\net6.0\refint\ContactPro.
 C:\Users\compo\Desktop\ContactPro\ContactPro\obj\Debug\net6.0\ContactPro.pdb
 C:\Users\compo\Desktop\ContactPro\ContactPro\obj\Debug\net6.0\ContactPro.genruntimeconfig.cache
 C:\Users\compo\Desktop\ContactPro\ContactPro\obj\Debug\net6.0\ref\ContactPro.dll
+C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Docker.DotNet.dll
+C:\Users\compo\Desktop\ContactPro\ContactPro\bin\Debug\net6.0\Docker.DotNet.X509.dll
